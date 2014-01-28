@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+"""
+/u/mexibot translator bot for Reddit
+https://github.com/abouzek/reddit_scripts
+
+"""
+
 import praw, goslate, logging, re
 from collections import deque
 from time import sleep
