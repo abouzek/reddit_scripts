@@ -10,7 +10,6 @@ def check(comment):
 
 def action(comment):
     print "Replying to comment: " + comment.body
-    print "\n\nLENGTH: " + str(len(comment.body))
     comment.reply(gs.translate(comment.body, 'es'))
 
 def run_bot(subreddit_names):
@@ -43,7 +42,7 @@ MAX_LENGTH = 9000
 
 cache = deque(maxlen=200)
 subreddit_names = ['test']
-keywords = set(['taco', 'burrito', 'queso', 'taquito', 'chaquita', 'chalupa', 'horchata', 'tortilla', 'mexi', 'cinco de mayo', 'mexican', 'viva', 'mundo', 'chihuahua'])
+keywords = set(['test', 'taco', 'burrito', 'queso', 'taquito', 'chaquita', 'chalupa', 'horchata', 'tortilla', 'mexi', 'cinco de mayo', 'mexican', 'viva', 'mundo', 'chihuahua'])
 
 r = praw.Reddit(USER_AGENT)
 r.login(USER, PASS)
