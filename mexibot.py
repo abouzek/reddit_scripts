@@ -43,15 +43,15 @@ def run_bot():
                     print "[ERROR]:", e
                     print "Waiting 30 seconds..."
                     sleep(30)
-    print "Finished. Replied to " + count + " comments."
+    print "Finished. Replied to " + str(count) + " comments."
 
-USER = "USER"
-PASS = "PASS"
-USER_AGENT = "USERAGENT"
+USER = "mexibot"
+PASS = "tacotaquitobanana"
+USER_AGENT = "/u/mexibot"
 MIN_LENGTH = 500
 MAX_LENGTH = 5000
 SIGNATURE = "\n\n\n*-- Viva la mexibot! Translated because you used a particularly* **spicy** *word.*"
-SUBREDDIT_NAMES = ['tacobell']
+SUBREDDIT_NAMES = ['all']
 KEYWORDS = set(['taco', 'burrito', 'queso', 'taquito', 'chaquita', 'chalupa', 'horchata', 'tortilla', 'cinco de mayo', 'mexican', 'chihuahua'])
 
 r = praw.Reddit(USER_AGENT)
