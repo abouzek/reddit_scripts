@@ -45,9 +45,9 @@ def run_bot():
                     sleep(30)
     print "Finished. Replied to " + str(count) + " comments."
 
-USER = "mexibot"
-PASS = "tacotaquitobanana"
-USER_AGENT = "/u/mexibot"
+USER = "USER"
+PASS = "PASS"
+USER_AGENT = "USERAGENT"
 MIN_LENGTH = 500
 MAX_LENGTH = 5000
 SIGNATURE = "\n\n\n*-- Viva la mexibot! Translated because you used a particularly* **spicy** *word.*"
