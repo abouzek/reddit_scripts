@@ -45,10 +45,11 @@ def run_bot():
                     sleep(30)
     print "Finished. Replied to " + str(count) + " comments."
 
-settings_file = open('settings.json', 'r')
-settings = json.load(settings_file)
-r = praw.Reddit(settings['user_agent'])
-r.login(settings['username'], settings['password'])
-gs = goslate.Goslate()
-run_bot()
+if __name__ == "__main__":
+    settings_file = open('settings.json', 'r')
+    settings = json.load(settings_file)
+    r = praw.Reddit(settings['user_agent'])
+    r.login(settings['username'], settings['password'])
+    gs = goslate.Goslate()
+    run_bot()
 
