@@ -1,0 +1,10 @@
+{
+    "username" : "username",
+    "password" : "password",
+    "user_agent" : "user_agent",
+    "min_length" : "500",
+    "max_length" : "3000",
+    "signature" : "\n\n\n*-- Viva la mexibot! Translated because you used a  particularly* **spicy** *word.*",
+    "keywords" : ["taco", "burrito", "queso", "taquito", "chaquita", "chalupa", "horchata", "tortilla", "cinco de mayo", "chihuahua"],
+    "subreddit_names" : ["test"]
+}
