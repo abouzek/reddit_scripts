@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 """
+By: Alan Bouzek
+
 /u/mexibot translator bot for Reddit
 https://github.com/abouzek/reddit_scripts
 
